@@ -36,15 +36,6 @@ Can be used to enable/disable logging for various categories.
 
 By default, Buddy logs information that is of severity **INFO** or above. To enable Buddy's debug logs, set the parameter value to `"buddy.*.debug=true"`.
 
-### Sunshine apps filepath
-`default: ""`
-
-Specifies where to find the `apps.json` file from Sunshine.
-
-If the value is left empty (default):
-* on Windows the registry will be checked for possible Sunshine installation directory;
-* on Linux the default config location is used as a fallback (`$XDG_CONFIG_HOME/sunshine` or `~/.config/sunshine`).
-
 ### Ssl Protocol
 `default: "SecureProtocols"`
 
